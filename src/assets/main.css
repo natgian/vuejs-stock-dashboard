@@ -25,18 +25,41 @@ a {
   cursor: pointer;
 }
 
+/*------ */
+/* FONTS */
+/*-------*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
 /*-------- */
 /* GENERAL */
 /*-------- */
 
 :root {
-  --primary-text-color: #f9f9f9;
+  --primary-text-color: #ffffff;
+  --heading-text-color: #f9f9f9;
+
+  --primary-bg-color: #011f35;
+  --secondary-bg-color: #39daff;
+
   --transition: all 200ms ease-in-out;
 }
 
 body {
-  font-family: "Rubik", sans-serif;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
   font-size: 16px;
   color: var(--primary-text-color);
   background: radial-gradient(71.11% 100% at 50% 0%, #020204 14.6%, #011f35 100%);
